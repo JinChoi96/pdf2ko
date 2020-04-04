@@ -13,12 +13,13 @@ Future versions will be more automated.
 ```
 $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 ```
-- python3 
+- python3  
 ``$ brew install python3``
-- PyPDF2 
+- PyPDF2  
   ``$ pip3 install PyPDF2`` 
-- translate-shell (For translation, pdf2ko uses [translate-shell](https://github.com/soimort/translate-shell))
-- ``$ brew install translate-shell`` 
+- translate-shell (For translation, pdf2ko uses [translate-shell](https://github.com/soimort/translate-shell))  
+
+  ``$ brew install translate-shell`` 
 
 ## Directory
 
