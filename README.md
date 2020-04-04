@@ -27,11 +27,11 @@ The directory tree is like below.
 ```
 v1
 +-- src
-|	  +--translate.py
+| +-- translate.py
 +-- before_trans
-|   +-- [your_pdf].pdf
+| +-- [your_pdf].pdf
 +-- after_trans
-|   +-- [translated_file].txt
+| +-- [translated_file].txt
 ```
 
 
