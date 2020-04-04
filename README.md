@@ -42,9 +42,8 @@ Clone the repository. Make sure you are in ``v1/src/`` folder.
 ```
 $ cd /pdf2ko/v1/src
 ```
-Let's assume a test pdf file 'test.pdf' is in ``v1/before_trans`` directory.
-Execute translate.py.
-When asked to give a file name, type the file name without extensions.
+Put your pdf file which will be translated to in ``v1/before_trans`` folder. We assume 'test.pdf' file as for an example.  
+Execute translate.py. When asked to give a file name, type the file name without extensions.  
 
 ```
 $ python3 traslate.py
