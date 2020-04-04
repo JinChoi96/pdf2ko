@@ -13,6 +13,8 @@ Future versions will be more automated.
 ```
 $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 ```
+- git  
+``$ brew install git``
 - python3  
 ``$ brew install python3``
 - PyPDF2  
@@ -41,6 +43,7 @@ Clone the repository. Make sure you are in ``v1/src/`` folder.
  Command will be like this:
 
 ```
+$ git clone https://github.com/JinChoi96/pdf2ko.git
 $ cd /pdf2ko/v1/src
 ```
 Put your pdf file which will be translated to in ``v1/before_trans`` folder. We assume 'test.pdf' file as for an example.  
