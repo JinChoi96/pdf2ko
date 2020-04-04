@@ -23,6 +23,7 @@ $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/
 
   ``$ brew install translate-shell`` 
 
+
 ## Directory
 
 The directory tree is like below.
@@ -61,3 +62,6 @@ Saved into ../after_trans/out_test.txt
 The translated file will be located at ``v1/after_trans`` folder.
 
 
+### Note 
+Sometimes, translate-shell returns Null response error.  
+As a hackaround, user-agent option is used but it doesn't always work.  
