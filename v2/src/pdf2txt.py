@@ -1,4 +1,6 @@
-"""A command line tool for extracting text and images from PDF and
+"""
+Referenced from https://github.com/pdfminer/pdfminer.six/blob/develop/tools/pdf2txt.py
+A command line tool for extracting text and images from PDF and
 output it to plain text, html, xml or tags."""
 import argparse
 import logging
