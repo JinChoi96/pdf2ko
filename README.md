@@ -1,4 +1,4 @@
-# pdf2ko - v1
+# pdf2ko - v2
 
 pdf2ko is a program which translates a pdf file to Korean and save it as a text file. 
 
