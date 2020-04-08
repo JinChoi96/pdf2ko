@@ -29,7 +29,7 @@ $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/
 The directory tree is like below.
 
 ```
-v1
+v2
 +-- src
 | +-- translate.py
 +-- before_trans
@@ -45,7 +45,7 @@ Clone the repository. Make sure you are in ``v1/src/`` folder.
 
 ```
 $ git clone https://github.com/JinChoi96/pdf2ko.git
-$ cd /pdf2ko/v1/src
+$ cd /pdf2ko/v2/src
 ```
 Put your pdf file which will be translated to in ``v1/before_trans`` folder. We assume 'test.pdf' file as for an example.  
 Execute translate.py. When asked to give a file name, type the file name without extensions.  
@@ -53,15 +53,19 @@ Execute translate.py. When asked to give a file name, type the file name without
 ```
 $ python3 traslate.py
 File name to translate: test
+Range to translate
+From: 1
+To : 3
 ```
 Then, it will process the pdf file and translate into Korean.
 ```
 ...
 Saved into ../after_trans/out_test.txt
 ```
-The translated file will be located at ``v1/after_trans`` folder.
+The translated file will be located at ``v2/after_trans/`` folder.
 
 
 ### Note 
-Sometimes, translate-shell returns Null response error.  
-As a hackaround, user-agent option is used but it doesn't always work.  
+Since translate-shell is not supposed to used as a library, frequent request will block your IP and prevent to use translation from Google.   
+
+Use only when translating appropriate quantity.  

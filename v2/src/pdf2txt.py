@@ -1,4 +1,6 @@
-"""A command line tool for extracting text and images from PDF and
+"""
+Referenced from https://github.com/pdfminer/pdfminer.six/blob/develop/tools/pdf2txt.py
+A command line tool for extracting text and images from PDF and
 output it to plain text, html, xml or tags."""
 import argparse
 import logging
@@ -171,10 +173,8 @@ def main(args=None):
 
     P = maketheparser()
     A = P.parse_args(args=args)
-    print(args)
 
     if A.page_numbers:
-        print(A.page_numbers)
         A.page_numbers = {x-1 for x in A.page_numbers}
     if A.pagenos:
         A.page_numbers = {int(x)-1 for x in A.pagenos.split(",")}
