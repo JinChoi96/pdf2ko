@@ -40,14 +40,14 @@ v2
 
 
 ## Let's translate !
-Clone the repository. Make sure you are in ``v1/src/`` folder.
+Clone the repository. Make sure you are in ``v2/src/`` folder.
  Command will be like this:
 
 ```
 $ git clone https://github.com/JinChoi96/pdf2ko.git
 $ cd /pdf2ko/v2/src
 ```
-Put your pdf file which will be translated to in ``v1/before_trans`` folder. We assume 'test.pdf' file as for an example.  
+Put your pdf file which will be translated to in ``v2/before_trans`` folder. We assume 'test.pdf' file as for an example.  
 Execute translate.py. When asked to give a file name, type the file name without extensions.  
 
 ```
